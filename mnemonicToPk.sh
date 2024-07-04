@@ -12,3 +12,4 @@ Account.enable_unaudited_hdwallet_features()
 wallet = Account.from_mnemonic(mnemonic)
 
 print("Private Key:", wallet.key.hex())
+print("Address:", wallet.address)
