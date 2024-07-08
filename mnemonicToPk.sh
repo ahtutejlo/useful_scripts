@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+# This script is designed to convert a mnemonic phrase into its corresponding Ethereum private key and address
 # web3 module is not installed by default. Run `pip3 install web3` to install it.
 import sys
 from web3 import Web3
